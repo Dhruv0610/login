@@ -25,7 +25,7 @@ class Otp extends React.Component{
                 <h4>An OTP has been sent to your mobile number.</h4>
                 <form onSubmit={this.handleSubmit}>
                     <div className='form-row'>
-                        {/* <label>Enter the OTP received on your Mobile: </label> */}
+                        <label>Enter the OTP: </label>
                         <input type="tel" id="otp" pattern="[0-9]{4}" placeholder="Enter the OTP..."></input>
                     </div>
                     <Button variant='contained' color='primary' onClick={this.handleSubmit}>Submit</Button>
