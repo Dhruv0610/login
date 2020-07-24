@@ -1,0 +1,14 @@
+.form-row{
+    display: flex;
+    padding: 10px;
+    width: 70%;
+}
+
+.form-row label{
+    flex: 1;
+}
+
+.form-row input{
+    flex: 1.5;
+    font-family: inherit;
+}
