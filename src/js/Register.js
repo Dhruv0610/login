@@ -33,15 +33,15 @@ class Register extends React.Component{
         return(
             <React.Fragment>
                 <h2>Registration Form</h2>
-                <Container className="registration-form">
-                    <form onSubmit={this.handleSubmit}>
+                <Container>
+                    <form className="registration-form" onSubmit={this.handleSubmit}>
                         <div className="form-row">
                             <label>Name: </label><input type='text' id='name' placeholder="Enter your name..." onChange={this.handleChange}></input><br/>
                         </div>
                         <div className="form-row">
                             <label>Mobile Number: </label><input type='tel' id='number' pattern="[0-9]{10}" placeholder="Enter your mobile number..." onChange={this.handleChange}></input><br/>
                         </div>
-                        <Button variant='contained' color='primary' onClick={this.handleSubmit}>Register</Button>
+                        <Button type="submit" variant='contained' color='primary' onClick={this.handleSubmit}>Register</Button>
                     </form>
                 </Container>
             </React.Fragment>
