@@ -22,6 +22,7 @@ class Otp extends React.Component{
         return(
             <React.Fragment>
                 <h2>Welcome to EdRAHI</h2>
+                <h4>An OTP has been sent to tour mobile number.</h4>
                 <form onSubmit={this.handleSubmit}>
                     <div className='form-row'>
                         <label>Enter the OTP received on your Mobile: </label>

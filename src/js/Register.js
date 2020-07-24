@@ -32,7 +32,8 @@ class Register extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <h2>Registration Form</h2>
+                <h2>Welcome to EdRAHI</h2>
+                <h3>Registration Form</h3>
                 <Container>
                     <form className="registration-form" onSubmit={this.handleSubmit}>
                         <div className="form-row">
