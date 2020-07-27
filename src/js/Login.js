@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/form.css';
 import Button from '@material-ui/core/Button';
-// import {Link} from 'react-router-dom';
+
 
 class Login extends React.Component{
     constructor(props){
@@ -49,7 +49,6 @@ class Login extends React.Component{
                         <input type="tel" id="number" pattern="[0-9]{10}" placeholder="Enter your mobile number..." onChange={this.handleChange}></input><br></br>
                     </div>
                     <Button variant='contained' color='primary' onClick={this.handleSubmit}>Submit</Button>
-                    {/* <button>Sign In</button> */}
                 </form>
             </div>
         )

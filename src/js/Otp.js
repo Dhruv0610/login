@@ -11,10 +11,7 @@ class Otp extends React.Component{
     handleSubmit(e){
         e.preventDefault();
         let path='/';
-        // if(this.props.validateUser(this.props.user.number))
         path='/home';
-        // else
-        //     path='/register';
         this.props.history.push(path);
     }
     

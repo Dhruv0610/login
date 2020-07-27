@@ -17,10 +17,12 @@
 .form-row input{
     flex: 1;
     font-family: inherit;
-    border-radius: 4px;
+    border-radius: 5px;
+    padding-left: 10px;
     border: none;
 }
 
 .form-row input:focus{
+    outline: none;
     border: 1px solid black;
 }
